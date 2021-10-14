@@ -3,7 +3,22 @@ h1 {
 }
 h2 {
   text-align: right;
-  margin-right: 5%;
+}
+
+p{
+  font-size:13px;
+}
+
+p.paragraphe1{
+  color:red;
+}
+
+p.paragraphe2{
+  color:blue;
+}
+
+#paragraphe3 {
+  color:green;
 }
 strong.Lorem1 {
   font-weight: normal;
@@ -20,7 +35,7 @@ mark.surligné_cyan {
 }
 sub {
   vertical-align: super;
-  border-bottom: 1px solid #000;
+  text-decoration:underline;
 }
 li.souligné {
   text-decoration: underline;
@@ -34,8 +49,11 @@ li.non_carré {
 body {
   width: 1708;
   height: 900;
-  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+  margin:3%;
 }
 ul.non_padding {
   padding: 0%;
+}
+a:visited{
+  color:black;
 }
