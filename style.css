@@ -1,0 +1,41 @@
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: right;
+  margin-right: 5%;
+}
+strong.Lorem1 {
+  font-weight: normal;
+  text-decoration: underline;
+}
+em.bleu {
+  color: rgb(2, 65, 201);
+}
+i.bleu {
+  color: rgb(2, 65, 201);
+}
+mark.surligné_cyan {
+  background: cyan;
+}
+sub {
+  vertical-align: super;
+  border-bottom: 1px solid #000;
+}
+li.souligné {
+  text-decoration: underline;
+}
+li.carré {
+  list-style-type: square;
+}
+li.non_carré {
+  list-style-type: none;
+}
+body {
+  width: 1708;
+  height: 900;
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+}
+ul.non_padding {
+  padding: 0%;
+}
